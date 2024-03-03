@@ -21,6 +21,7 @@ def desconto():
         salario = bruto - desconto
         print('----------------------')
         resultados()
+    
     elif 900 < bruto <= 1500:
         ir = '5%'
         ir_calculo = bruto * 1/20
