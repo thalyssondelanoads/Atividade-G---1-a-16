@@ -1,10 +1,10 @@
 def reajuste():
     
     def resultados():
-        print(f'Salário Inicial = {salario:.2f} ')
-        print(f'Percentual de Aumento = {aumento} ')
-        print(f'Valor do Aumento = {valor_aumento:.2f} ')
-        print(f'Salário com Aumento = {reajuste:.2f} ')
+        print(f'Salário Inicial = R$ {salario:.2f} ')
+        print(f'Percentual de Aumento = R$ {aumento} ')
+        print(f'Valor do Aumento = R$ {valor_aumento:.2f} ')
+        print(f'Salário com Aumento = R$ {reajuste:.2f} ')
     
     salario = float(input('Digite o seu Salário: ')) 
     
