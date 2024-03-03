@@ -1,8 +1,7 @@
 def reajuste():
-    
     def resultados():
         print(f'Salário Inicial = R$ {salario:.2f} ')
-        print(f'Percentual de Aumento = R$ {aumento} ')
+        print(f'Percentual de Aumento = {aumento} ')
         print(f'Valor do Aumento = R$ {valor_aumento:.2f} ')
         print(f'Salário com Aumento = R$ {reajuste:.2f} ')
     
