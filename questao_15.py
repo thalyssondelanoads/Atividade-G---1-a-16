@@ -1,7 +1,7 @@
 print('Preços da Frutaria')
 print('-------------------')
-print('Morango - R$ 2,50 por KG')
-print('Maçã - R$ 1,80 por KG')
+print('Morango - R$ 2,50 por KG ou R$ 2,20 por KG Comprando + de 5 Unidades')
+print('Maçã - R$ 1,80 por KG ou R$ 1,50 por KG Comprando + de 5 Unidades')
 print('-------------------')
 
 morango = int(input('Quantos Quilos de Morango Deseja? : '))
@@ -11,13 +11,13 @@ maça = int(input('Quantos Quilos de Maçã Deseja? : '))
 
 def preço_final():
     def preço_morango():
-        if morango <= 5:
+        if morango < 5:
             return 2.50 * morango
         else:
             return 2.20 * morango
     
     def preço_maça():
-        if maça <= 5:
+        if maça < 5:
             return 1.80 * maça
         else:
             return 1.50 * maça
