@@ -11,13 +11,13 @@ maça = int(input('Quantos Quilos de Maçã Deseja? : '))
 
 def preço_final():
     def preço_morango():
-        if morango < 5:
+        if morango <= 5:
             return 2.50 * morango
         else:
             return 2.20 * morango
     
     def preço_maça():
-        if maça < 5:
+        if maça <= 5:
             return 1.80 * maça
         else:
             return 1.50 * maça
